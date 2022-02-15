@@ -16,7 +16,6 @@
 package options
 
 import (
-	"github.com/sigstore/cosign/cmd/cosign/cli/options"
 	"github.com/spf13/cobra"
 )
 
@@ -26,8 +25,6 @@ type RootOptions struct {
 	PublicKey  string
 	ImageRef   string
 }
-
-var _ options.Interface = (*RootOptions)(nil)
 
 // AddFlags implements options.Interface
 func (o *RootOptions) AddFlags(cmd *cobra.Command) {
