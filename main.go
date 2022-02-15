@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sigstore/cosign/cmd/sget/cli"
+	"github.com/sigstore/sget/cli"
 )
 
 func main() {

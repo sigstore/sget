@@ -3,6 +3,7 @@ module github.com/sigstore/sget
 go 1.17
 
 require (
+	github.com/google/go-containerregistry v0.8.1-0.20220125170349-50dfc2733d10
 	github.com/pkg/errors v0.9.1
 	github.com/sigstore/cosign v1.5.1
 	github.com/spf13/cobra v1.3.0
@@ -114,7 +115,6 @@ require (
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/certificate-transparency-go v1.1.2 // indirect
 	github.com/google/go-cmp v0.5.7 // indirect
-	github.com/google/go-containerregistry v0.8.1-0.20220125170349-50dfc2733d10 // indirect
 	github.com/google/go-github/v42 v42.0.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
