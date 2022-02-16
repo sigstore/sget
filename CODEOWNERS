@@ -1,1 +1,7 @@
 @sigstore/sget-codeowners
+
+# The CODEOWNERS are managed via a GitHub team, but the current list is (in alphabetical order):
+
+# dlorenc
+# imjasonh
+# luhring
