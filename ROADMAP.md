@@ -8,7 +8,7 @@
 
 ### Phase 0
 
-Add basic URL-fetching functionality to `sget`, with an optional ability to check content digests to ensure integrity.
+Add basic URL-fetching functionality to `sget`, with content digests to ensure integrity.
 
 This phase may also include a manual verification step where buffered contents are shown to the user, so they can manually inspect the contents before proceeding.
 
@@ -23,7 +23,7 @@ Before trusting an artifact, users should be able to:
 - see the total number of unique identities that have signed indicating that the artifact is safe to fetch.
 - see a random small subset of those identities.
 - see any identities with email addresses that match the URL's domain.
-- locally configure trusted identities, and trust those identities more than arbitrary random identities.
+- locally configure trusted identities, and trust those identities more than arbitrary public identities.
 - locally configure policies, and automatically trust artifacts that satisfy those requirements.
 
 The goal of this phase is to encourage adoption of `sget` by end users wishing to consume content more safely, without requiring any action by maintainers.
