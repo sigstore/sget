@@ -43,7 +43,7 @@ func addTrust(cmd *cobra.Command) {
 				m[i] = struct{}{}
 			}
 			if remove {
-				// Add trusted identities.
+				// Remove trusted identities.
 				for _, a := range args {
 					if _, ok := m[a]; !ok {
 						log.Println("trusted identity not found, will not be removed:", a)
