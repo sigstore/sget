@@ -3,7 +3,7 @@ module github.com/sigstore/sget
 go 1.18
 
 require (
-	github.com/BurntSushi/toml v1.0.0
+	github.com/BurntSushi/toml v1.1.0
 	github.com/go-openapi/strfmt v0.21.2
 	github.com/go-openapi/swag v0.21.1
 	github.com/google/go-containerregistry v0.8.1-0.20220125170349-50dfc2733d10
