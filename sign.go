@@ -70,7 +70,7 @@ func addSign(cmd *cobra.Command) {
 			default:
 				flow = oauthflow.DefaultIDTokenGetter
 			}
-			idt, err := oauthflow.OIDConnect(flags.oidcIssuer, flags.oidcClientID, flags.oidcClientSecret, flow)
+			idt, err := oauthflow.OIDConnect(flags.oidcIssuer, flags.oidcClientID, flags.oidcClientSecret, flags.oidcRedirectURL, flow)
 			if err != nil {
 				return fmt.Errorf("getting ID token: %w", err)
 			}
