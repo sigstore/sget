@@ -18,6 +18,7 @@ import (
 	rindex "github.com/sigstore/rekor/pkg/generated/client/index"
 	rmodels "github.com/sigstore/rekor/pkg/generated/models"
 	"github.com/spf13/cobra"
+	"golang.org/x/net/idna"
 )
 
 func main() {
@@ -36,6 +37,11 @@ func main() {
 			if u.Scheme != "https" {
 				log.Println("URL is not HTTPS, assuming it's an OCI image reference by digest")
 				return fetchImage(url)
+			}
+			if pu, err := idna.Punycode.ToASCII(u.Hostname()); err != nil {
+				return fmt.Errorf("failed to parse URL: %w", err)
+			} else if strings.HasPrefix(pu, "xn--") {
+				return fmt.Errorf("refusing to fetch Punycode URL %q", pu)
 			}
 
 			// Validate digest if specified.
