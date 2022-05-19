@@ -18,7 +18,7 @@ nfpms:
 - id: default
   package_name: sget
   vendor: Sigstore
-  homepage: https://github.com/sigstore/gitsign
+  homepage: https://github.com/sigstore/sget
   maintainer:  sget authors
   description: A safer `curl | sh`
   formats:
