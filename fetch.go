@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"crypto/sha256"
 	"fmt"
 	"io"
@@ -18,8 +19,12 @@ func (f tempFile) out() io.ReadCloser {
 	return f.f
 }
 
-func fetch(url string, discard bool) (*tempFile, error) {
-	resp, err := http.Get(url)
+func fetch(ctx context.Context, url string, discard bool) (*tempFile, error) {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
+	if err != nil {
+		return nil, err
+	}
+	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return nil, err
 	}

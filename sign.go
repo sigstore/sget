@@ -38,6 +38,8 @@ func addSign(cmd *cobra.Command) {
 		SilenceUsage:  true,
 		SilenceErrors: true,
 		RunE: func(cmd *cobra.Command, args []string) error {
+			ctx := cmd.Context()
+
 			url := args[0]
 			u, err := neturl.Parse(url)
 			if err != nil {
@@ -48,7 +50,7 @@ func addSign(cmd *cobra.Command) {
 			}
 
 			// Validate digest if specified.
-			tmp, err := fetch(url, true)
+			tmp, err := fetch(ctx, url, true)
 			if err != nil {
 				return fmt.Errorf("error getting digest for %q: %w", url, err)
 			}

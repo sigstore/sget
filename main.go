@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"crypto/x509"
 	"encoding/base64"
 	"encoding/json"
@@ -10,6 +11,7 @@ import (
 	"log"
 	neturl "net/url"
 	"os"
+	"os/signal"
 	"strings"
 
 	fapi "github.com/sigstore/fulcio/pkg/api"
@@ -29,6 +31,8 @@ func main() {
 		SilenceUsage:  true,
 		SilenceErrors: true,
 		RunE: func(cmd *cobra.Command, args []string) error {
+			ctx := cmd.Context()
+
 			url := args[0]
 			u, err := neturl.Parse(url)
 			if err != nil {
@@ -45,7 +49,7 @@ func main() {
 			}
 
 			// Validate digest if specified.
-			tmp, err := fetch(url, false)
+			tmp, err := fetch(ctx, url, false)
 			if err != nil {
 				return fmt.Errorf("error getting digest for %q: %w", url, err)
 			}
@@ -107,7 +111,10 @@ func main() {
 
 				// TODO: Check that the URL matches, not just the digest.
 
-				block, _ := pem.Decode([]byte(ent.Spec.PublicKey))
+				if len(ent.Spec.PublicKey) == 0 {
+					continue
+				}
+				block, _ := pem.Decode(ent.Spec.PublicKey)
 				if block == nil {
 					return fmt.Errorf("parsing certificate PEM; block is nil")
 				}
@@ -184,7 +191,9 @@ func main() {
 	addSign(root)
 	addTrust(root)
 
-	if err := root.Execute(); err != nil {
+	ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt)
+	defer cancel()
+	if err := root.ExecuteContext(ctx); err != nil {
 		log.Fatal(err)
 	}
 }
