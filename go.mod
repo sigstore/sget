@@ -10,7 +10,7 @@ require (
 	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sigstore/fulcio v0.5.0
-	github.com/sigstore/rekor v0.7.0
+	github.com/sigstore/rekor v0.8.1
 	github.com/sigstore/sigstore v1.2.1-0.20220526001230-8dc4fa90a468
 	github.com/spf13/cobra v1.4.0
 	golang.org/x/net v0.0.0-20220526153639-5463443f8c37
@@ -31,7 +31,7 @@ require (
 	github.com/go-openapi/loads v0.21.1 // indirect
 	github.com/go-openapi/runtime v0.24.1 // indirect
 	github.com/go-openapi/spec v0.20.6 // indirect
-	github.com/go-openapi/validate v0.21.0 // indirect
+	github.com/go-openapi/validate v0.22.0 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
@@ -44,7 +44,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/secure-systems-lab/go-securesystemslib v0.3.1 // indirect
+	github.com/secure-systems-lab/go-securesystemslib v0.4.0 // indirect
 	github.com/segmentio/ksuid v1.0.4 // indirect
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
