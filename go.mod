@@ -9,7 +9,7 @@ require (
 	github.com/google/go-containerregistry v0.11.0
 	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/sigstore/fulcio v0.5.1
+	github.com/sigstore/fulcio v0.5.2
 	github.com/sigstore/rekor v0.9.1
 	github.com/sigstore/sigstore v1.3.1-0.20220630102118-77b1712d5cfd
 	github.com/spf13/cobra v1.5.0
@@ -57,10 +57,10 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220718184931-c8730f7fcb92 // indirect
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
 	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8-0.20211004125949-5bd84dd9b33b // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220624142145-8cd45d7dbd1f // indirect
-	google.golang.org/grpc v1.47.0 // indirect
+	google.golang.org/genproto v0.0.0-20220719170305-83ca9fad585f // indirect
+	google.golang.org/grpc v1.48.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
