@@ -32,7 +32,7 @@ jobs:
 
       - uses: sigstore/cosign-installer@09a077b27eb1310dcfb21981bee195b30ce09de0
       - uses: anchore/sbom-action/download-syft@bb716408e75840bbb01e839347cd213767269d4a
-      - uses: goreleaser/goreleaser-action@b953231f81b8dfd023c58e0854a721e35037f28b
+      - uses: goreleaser/goreleaser-action@68acf3b1adf004ac9c2f0a4259e85c5f66e99bef
         with:
           version: latest
           args: release --rm-dist
