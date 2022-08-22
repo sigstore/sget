@@ -5,12 +5,12 @@ go 1.18
 require (
 	github.com/BurntSushi/toml v1.2.0
 	github.com/go-openapi/strfmt v0.21.3
-	github.com/go-openapi/swag v0.22.0
+	github.com/go-openapi/swag v0.22.1
 	github.com/google/go-containerregistry v0.11.0
 	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sigstore/fulcio v0.5.3
-	github.com/sigstore/rekor v0.9.1
+	github.com/sigstore/rekor v0.11.0
 	github.com/sigstore/sigstore v1.4.0
 	github.com/spf13/cobra v1.5.0
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
@@ -24,13 +24,13 @@ require (
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker v20.10.17+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
-	github.com/go-openapi/analysis v0.21.2 // indirect
-	github.com/go-openapi/errors v0.20.2 // indirect
+	github.com/go-openapi/analysis v0.21.4 // indirect
+	github.com/go-openapi/errors v0.20.3 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
-	github.com/go-openapi/loads v0.21.1 // indirect
+	github.com/go-openapi/loads v0.21.2 // indirect
 	github.com/go-openapi/runtime v0.24.1 // indirect
-	github.com/go-openapi/spec v0.20.6 // indirect
+	github.com/go-openapi/spec v0.20.7 // indirect
 	github.com/go-openapi/validate v0.22.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
