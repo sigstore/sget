@@ -11,7 +11,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sigstore/fulcio v0.6.0
 	github.com/sigstore/rekor v0.12.2
-	github.com/sigstore/sigstore v1.4.3
+	github.com/sigstore/sigstore v1.4.4
 	github.com/spf13/cobra v1.5.0
 	golang.org/x/net v0.0.0-20220927171203-f486391704dc
 	golang.org/x/term v0.0.0-20220919170432-7a66f970e087
