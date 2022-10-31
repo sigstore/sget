@@ -12,7 +12,7 @@ require (
 	github.com/sigstore/fulcio v1.0.0
 	github.com/sigstore/rekor v1.0.0
 	github.com/sigstore/sigstore v1.4.5
-	github.com/spf13/cobra v1.6.0
+	github.com/spf13/cobra v1.6.1
 	golang.org/x/net v0.1.0
 	golang.org/x/term v0.1.0
 )
