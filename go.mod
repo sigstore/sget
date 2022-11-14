@@ -10,7 +10,7 @@ require (
 	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sigstore/fulcio v1.0.0
-	github.com/sigstore/rekor v1.0.0
+	github.com/sigstore/rekor v1.0.1
 	github.com/sigstore/sigstore v1.4.5
 	github.com/spf13/cobra v1.6.1
 	golang.org/x/net v0.2.0
