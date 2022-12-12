@@ -13,7 +13,7 @@ require (
 	github.com/sigstore/rekor v1.0.1
 	github.com/sigstore/sigstore v1.5.0
 	github.com/spf13/cobra v1.6.1
-	golang.org/x/net v0.3.0
+	golang.org/x/net v0.4.0
 	golang.org/x/term v0.3.0
 )
 
