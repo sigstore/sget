@@ -6,7 +6,7 @@ require (
 	github.com/BurntSushi/toml v1.2.1
 	github.com/go-openapi/strfmt v0.21.3
 	github.com/go-openapi/swag v0.22.3
-	github.com/google/go-containerregistry v0.12.1
+	github.com/google/go-containerregistry v0.13.0
 	github.com/in-toto/in-toto-golang v0.3.4-0.20211211042327-af1f9fb822bf
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/sigstore/fulcio v1.0.0
@@ -36,6 +36,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
+	github.com/klauspost/compress v1.15.11 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/letsencrypt/boulder v0.0.0-20221109233200-85aa52084eaf // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
