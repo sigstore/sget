@@ -68,7 +68,7 @@ github.com/go-openapi/swag v0.22.3/go.mod h1:UzaqsxGiab7freDnrUUra0MwWfN/q7tE4j+
 github.com/go-openapi/validate v0.21.0/go.mod h1:rjnrwK57VJ7A8xqfpAOEKRH8yQSGUriMu5/zuPSQ1hg=
 github.com/go-openapi/validate v0.22.0 h1:b0QecH6VslW/TxtpKgzpO1SNG7GU2FsaqKdP1E2T50Y=
 github.com/go-openapi/validate v0.22.0/go.mod h1:rjnrwK57VJ7A8xqfpAOEKRH8yQSGUriMu5/zuPSQ1hg=
-github.com/go-rod/rod v0.112.3 h1:xbSaA9trZ8v/+eJRGOM6exK1RCsLPwwnzA78vpES0gk=
+github.com/go-rod/rod v0.112.6 h1:zMirUmhsBeshMWyf285BD0UGtGq54HfThLDGSjcP3lU=
 github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/melR3HDY=
 github.com/go-stack/stack v1.8.1/go.mod h1:dcoOX6HbPZSZptuspn9bctJ+N/CnF5gGygcUP3XYfe4=
 github.com/go-test/deep v1.1.0 h1:WOcxcdHcvdgThNXjw0t76K42FXTU7HpNQWHpA2HHNlg=
@@ -189,8 +189,8 @@ github.com/sigstore/fulcio v1.1.0 h1:mzzJ05Ccu8Y2inyioklNvc8MpzlGHxu8YqNeTm0dHfU
 github.com/sigstore/fulcio v1.1.0/go.mod h1:zv1ZQTXZbUwQdRwajlQksc34pRas+2aZYpIZoQBNev8=
 github.com/sigstore/rekor v1.0.1 h1:rcESXSNkAPRWFYZel9rarspdvneET60F2ngNkadi89c=
 github.com/sigstore/rekor v1.0.1/go.mod h1:ecTKdZWGWqE1pl3U1m1JebQJLU/hSjD9vYHOmHQ7w4g=
-github.com/sigstore/sigstore v1.5.1 h1:iUou0QJW8eQKMUkTXbFyof9ZOblDtfaW2Sn2+QI8Tcs=
-github.com/sigstore/sigstore v1.5.1/go.mod h1:3i6UTWVNtFwOtbgG63FZZNID4vO9KcO8AszIJlaNI8k=
+github.com/sigstore/sigstore v1.5.2 h1:rvZSPJDH2ysoc8kjW9v4nv1UX3XwSA8y4x6Dk7hA0D4=
+github.com/sigstore/sigstore v1.5.2/go.mod h1:wxhp9KoaOpeb1VLKILruD283KJqPSqX+3TuBByVDZ6E=
 github.com/sirupsen/logrus v1.4.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/sirupsen/logrus v1.4.1/go.mod h1:ni0Sbl8bgC9z8RoU9G6nDWqqs/fq4eDPysMBDgk/93Q=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
@@ -246,8 +246,8 @@ golang.org/x/crypto v0.0.0-20200302210943-78000ba7a073/go.mod h1:LzIPMQfyMNhhGPh
 golang.org/x/crypto v0.0.0-20201216223049-8b5274cf687f/go.mod h1:jdWPYTVW3xRLrWPugEBEK3UY2ZEsg3UU495nc5E+M+I=
 golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=
 golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
-golang.org/x/crypto v0.5.0 h1:U/0M97KRkSFvyD/3FSmdP5W5swImpNgle/EHFhOsQPE=
-golang.org/x/crypto v0.5.0/go.mod h1:NK/OQwhpMQP3MwtdjgLlYHnH9ebylxKWv3e0fK+mkQU=
+golang.org/x/crypto v0.6.0 h1:qfktjS5LUO+fFKeJXZ+ikTRijMmljikvG68fpMMruSc=
+golang.org/x/crypto v0.6.0/go.mod h1:OFC/31mSvZgRz0V1QTNCzfAI1aIRzbiufJtkMIlEp58=
 golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=
 golang.org/x/net v0.0.0-20190311183353-d8887717615a/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
